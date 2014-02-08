@@ -30,7 +30,7 @@ app.get('/users', function(res, req){
 <%- paginate(users.count, pageOpts) %>
 
 
-'pageOpts' has options :
+'pageOpts' has options:
 {
   currentPage: 1,
   perPage: 10,
