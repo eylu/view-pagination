@@ -30,7 +30,8 @@ View-pagination
 
       <%- paginate(users.count, pageOpts) %>
 
-      'pageOpts' has options:
+
+tips, 'pageOpts' has options:
 
       {
         currentPage: 1,
