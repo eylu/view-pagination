@@ -31,8 +31,7 @@ View-pagination
       <%- paginate(users.count, pageOpts) %>
 
 
-3. 'pageOpts' has options:
-
+      'pageOpts' has options:
 
       {
         currentPage: 1,
