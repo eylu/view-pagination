@@ -1,12 +1,12 @@
 # View-pagination
-  ===============
+===============
   a simple pagination for view
 
 ## Use it
 
   this is used for express
-  
-  
+
+
 1. app.js
 
     var pagination = require('view-pagination');
@@ -25,7 +25,7 @@
         res.render('users/index', { users: users, pageOpts: pageOpts });
       });
     });
-    
+
 
 2. view/users/index.ejs
 
@@ -34,8 +34,8 @@
 
 
     'pageOpts' has options:
-   
-   
+
+
     {
       currentPage: 1,
       perPage: 10,
