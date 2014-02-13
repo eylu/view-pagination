@@ -1,14 +1,13 @@
-# View-pagination
+View-pagination
 ===============
   a simple pagination for view
 
 ## Use it
-
   this is used for express
 
 
-1. app.js
-
+## 1. app.js
+    
     var pagination = require('view-pagination');
 
     app.locals({
@@ -27,9 +26,7 @@
     });
 
 
-2. view/users/index.ejs
-
-
+## 2. view/users/index.ejs
     <%- paginate(users.count, pageOpts) %>
 
 
