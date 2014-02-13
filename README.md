@@ -6,7 +6,7 @@ View-pagination
   this is used for express
 
 
-## 1. app.js
+1. app.js
 
       var pagination = require('view-pagination');
 
@@ -26,11 +26,12 @@ View-pagination
       });
 
 
-## 2. view/users/index.ejs
-        <%- paginate(users.count, pageOpts) %>
+2. view/users/index.ejs
+
+      <%- paginate(users.count, pageOpts) %>
 
 
-    'pageOpts' has options:
+3. 'pageOpts' has options:
 
 
       {
