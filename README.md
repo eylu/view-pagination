@@ -25,7 +25,6 @@ View-pagination
         });
       });
 
-
 2. view/users/index.ejs
 
       <%- paginate(users.count, pageOpts) %>
