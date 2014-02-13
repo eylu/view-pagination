@@ -30,7 +30,6 @@ View-pagination
 
       <%- paginate(users.count, pageOpts) %>
 
-
       'pageOpts' has options:
 
       {
