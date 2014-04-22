@@ -25,13 +25,12 @@ View-pagination
 >        });
 >      });
 
-
 2. view/users/index.ejs
 
-      <%- paginate(users.count, pageOpts) %>
+>      <%- paginate(users.count, pageOpts) %>
 
 
-tips, 'pageOpts' has options:
+  tips, 'pageOpts' has options:
 
       {
         currentPage: 1,
